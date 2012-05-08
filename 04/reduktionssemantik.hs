@@ -46,7 +46,7 @@ reduk ( Term (Op n op t), (s, e, a)) = Just ( Term (Op n op m), (s, newE, a))
     where
         Just ( Term m, (_, newE, _)) = reduk ( Term t, (s, e, a) )
 -- n + m => (n+m)
-reduk ( Term (Op (Num n) Plus (Num m)), (s, e, a)) = Just ( Term ( Num n+m), (s, e, a))
+reduk ( Term (Op n Plus m), (s, e, a)) = Just ( Term ( Num n+m), (s, e, a))
 -- n - m => (n-m)
 reduk ( Op (Minus n m), (s, e, a)) = Just (n-m, (s, e, a))
 -- n * m => (n*m)
