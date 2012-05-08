@@ -1,0 +1,587 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R
+ /F4 5 0 R
+ /F5 7 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+5 0 obj
+% Font Symbol
+<< /BaseFont /Symbol
+ /Encoding /SymbolEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 18 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 17 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F5': class PDFType1Font 
+7 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page2': class PDFPage 
+8 0 obj
+% Page dictionary
+<< /Contents 19 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 17 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page3': class PDFPage 
+9 0 obj
+% Page dictionary
+<< /Contents 20 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 17 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R10': class PDFCatalog 
+10 0 obj
+% Document Root
+<< /Outlines 12 0 R
+ /PageLabels 21 0 R
+ /PageMode /UseNone
+ /Pages 17 0 R
+ /Type /Catalog >>
+endobj
+% 'R11': class PDFInfo 
+11 0 obj
+<< /Author ()
+ /CreationDate (D:20120502101241-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (\334bungszettel 3: Semantik von Programmiersprachen) >>
+endobj
+% 'R12': class PDFOutlines 
+12 0 obj
+<< /Count 4
+ /First 13 0 R
+ /Last 16 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+13 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 683.0236
+ 0 ]
+ /Next 14 0 R
+ /Parent 12 0 R
+ /Title (Aufgabe 1) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+14 0 obj
+<< /Dest [ 6 0 R
+ /XYZ
+ 62.69291
+ 414.4236
+ 0 ]
+ /Next 15 0 R
+ /Parent 12 0 R
+ /Prev 13 0 R
+ /Title (Aufgabe 2) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+15 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 703.8236
+ 0 ]
+ /Next 16 0 R
+ /Parent 12 0 R
+ /Prev 14 0 R
+ /Title (Aufgabe 3) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+16 0 obj
+<< /Dest [ 8 0 R
+ /XYZ
+ 62.69291
+ 511.6236
+ 0 ]
+ /Parent 12 0 R
+ /Prev 15 0 R
+ /Title (Aufgabe 4) >>
+endobj
+% 'R17': class PDFPages 
+17 0 obj
+% page tree
+<< /Count 3
+ /Kids [ 6 0 R
+ 8 0 R
+ 9 0 R ]
+ /Type /Pages >>
+endobj
+% 'R18': class PDFStream 
+18 0 obj
+% page stream
+<< /Length 5308 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 20 Tf 24 TL 92.69488 0 Td (\334bungszettel 3: Semantik von) Tj T* 35.55 0 Td (Programmiersprachen) Tj T* -128.2449 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 695.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Jakob Pfender und Yves M\374ller) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 662.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Aufgabe 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 644.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (F\374r alle Opertaionen, f\374r die vorher eine Regel der From) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 598.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( W | S | \(T1 OP T2\).K | E | A ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | T1.T2.OP.K   | E | A ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 578.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (existierte muss diese entfernt werden uns stattdessen folgende Regel hinzugef\374gt werden:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( W | S | \(T1 OP T2\).K | E | A ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | T2.T1.OP.K   | E | A ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 489.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.316647 Tw (Wichtig ist die Auswertungsreihenfolge dann, wenn ein Aufruf Seiteneffekte erzeugt. Dies passiert zum) Tj T* 0 Tw 1.248555 Tw (Beispiel beim \344ndern von Variablen Werten oder lesen von der Eingabe. Dies ist insbesondere kritisch) Tj T* 0 Tw (wenn die Operation nicht kommutativ ist.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 471.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Hier ein Beispiel in der Haskelldatenstruktur vom letzten \334bungsblatt:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 426.4236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F3 10 Tf 12 TL (example :: T) Tj T* (example =  \( Minus ReadInt ReadInt \)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 393.4236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Aufgabe 2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.4236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .208221 Tw (Der Anfangs der Zustand der neuen Komponente sollte das leere Wort sein, da es am Anfang noch keine) Tj T* 0 Tw 1.919147 Tw (Fehler- oder Erfolgsberichte gibt. F\374r alle Zust\344nde die keinen Nachfolgezustand besitzen, f\374hren wir) Tj T* 0 Tw (einen solchen ein, so dass:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 306.2236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( W | S | K | E | A | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | K | E | A | m ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 274.2236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.923555 Tw (wobei m eine sinnvolle Meldung sein sollte warum der Zustand keinen Folgezustand hat. Hier einige) Tj T* 0 Tw (Beispiele:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 157.0236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( 0.n.W | S | /.K | E | A | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W     | S | K   | E | A | "Devide by zero" ) Tj (>) Tj  T*  T* (delta \( ) Tj (<) Tj ( W | S | read.K | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( | A | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | K      | E | A | "Not enough input" ) Tj (>) Tj  T*  T* (delta \( ) Tj (<) Tj ( true.n.W | S | +.K | E | A | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj (        W | S | K   | E | A | "Type conflict" ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 125.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .054269 Tw (Zuletzt f\374gen wir folgende \334berg\344nge hinzu, damit die Maschine auch das Ende der Ausf\374hrung anzeigen) Tj T* 0 Tw (kann:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 79.82362 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( W | S | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( | E | A | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | ) Tj /F4 10 Tf 12 TL (e) Tj /F3 10 Tf 12 TL ( | E | A | "Ausf\374hrung beendet"  ) Tj (>) Tj  T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R19': class PDFStream 
+19 0 obj
+% page stream
+<< /Length 3377 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 715.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg  T* (delta \( ) Tj (<) Tj ( W | S | K | E | A | "Ausf\374hrung beendet" ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | K | E | A | "Ausf\374hrung beendet"  ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 682.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Aufgabe 3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 640.8236 cm
+q
+BT 1 0 0 1 0 26 Tm 3.055984 Tw 12 TL /F1 10 Tf 0 0 0 rg (Die Menge komm muss um ein Symbol ) Tj /F5 10 Tf (repeat ) Tj /F1 10 Tf (erweiter werden, und nat\374rlich auch um die neue) Tj T* 0 Tw 2.54229 Tw (Grammtikregel, da diese ja ein Element von ) Tj /F5 10 Tf (C ) Tj /F1 10 Tf (ist. Folgende \334berg\344nge m\374ssen zur delta-Funktion) Tj T* 0 Tw (hinzukommen:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 523.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 108 re B*
+Q
+q
+BT 1 0 0 1 0 86 Tm 12 TL /F3 10 Tf 0 0 0 rg (delta \( ) Tj (<) Tj ( W | S | \(repeat C until B\).K | E | A ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | C.B.repeat.C.B.K | E | A ) Tj (>) Tj  T*  T* (delta \( ) Tj (<) Tj ( false.W | S | repeat.C.B.K | E | A ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | C.B.repeat.C.B.K | E | A ) Tj (>) Tj  T*  T* (delta \( ) Tj (<) Tj ( true.W | S | repeat.C.B.K | E | A ) Tj (>) Tj ( \) =) Tj T* (        ) Tj (<) Tj ( W | S | K | E | A ) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 490.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Aufgabe 4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 460.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.359983 Tw (Wir haben versucht die Aufgabe in Haskell zu implementieren, auf Grund von einer nicht optimalen) Tj T* 0 Tw (Zeitplannung ist sie leider nicht ganz fertig.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 85.90327 cm
+q
+q
+.781586 0 0 .781586 0 0 cm
+q
+1 0 0 1 6.6 8.444364 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 600 468 re B*
+Q
+q
+BT 1 0 0 1 0 446 Tm 12 TL /F3 10 Tf 0 0 0 rg (import Data.Map as Map) Tj T* (-- Definition of while) Tj T*  T* (data Konst = Z Int | W Bool) Tj T* (    deriving Show) Tj T*  T* (type I = String) Tj T*  T* (data OP =  Plus | Minus | Mul | Div | Mod) Tj T* (    deriving \(Show, Eq\)) Tj T*  T* (data BOP = Gt | Lt | Geq | Leq | Eq | Neq) Tj T* (    deriving \(Show, Eq\)) Tj T*  T*  T* (data T = Num Int | Id I | Term T OP T | ReadInt) Tj T* (    deriving Show) Tj T*  T* (data B = Bool Bool | Not B | Expr T BOP T | ReadBool) Tj T* (    deriving Show) Tj T*  T* (data C = Skip | Assign I T | Seq C C | If B C C | While B C | OutputInt T | OutputBool B) Tj T* (    deriving Show) Tj T*  T* (type P = C) Tj T*  T* (-- definition of wskea machine) Tj T* (data WE = ZW Bool | WW Int | I I) Tj T* (    deriving Show) Tj T* (data KE = GProg P | GTerm T | GBTerm B | Op OP | Bop BOP | AssignK | WhileK | IfK | NotK | OutputK) Tj T* (    deriving Show) Tj T*  T* (type W = [WE]) Tj T* (type S = Map.Map String Int) Tj T* (type K = [KE]) Tj T* (type E = [Konst]) Tj T* (type A = [Konst]) Tj T*  T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R20': class PDFStream 
+20 0 obj
+% page stream
+<< /Length 738 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 595.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 0 0 rg (data State = State  { w :: W) Tj T* (                    , s :: S) Tj T* (                    , k :: K) Tj T* (                    , e :: E) Tj T* (                    , a :: A }) Tj T*  T*  T* (start :: P -) Tj (>) Tj ( E  -) Tj (>) Tj ( State) Tj T* (start p e = State { w = []) Tj T* (                , s = Map.empty :: Map String Int) Tj T* (                , k = [GProg p]) Tj T* (                , e = e) Tj T* (                , a = [] }) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+% 'R21': class PDFPageLabels 
+21 0 obj
+% Document Root
+<< /Nums [ 0
+ 22 0 R
+ 1
+ 23 0 R
+ 2
+ 24 0 R ] >>
+endobj
+% 'R22': class PDFPageLabel 
+22 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R23': class PDFPageLabel 
+23 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+% 'R24': class PDFPageLabel 
+24 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+xref
+0 25
+0000000000 65535 f
+0000000113 00000 n
+0000000257 00000 n
+0000000422 00000 n
+0000000597 00000 n
+0000000758 00000 n
+0000000914 00000 n
+0000001195 00000 n
+0000001374 00000 n
+0000001653 00000 n
+0000001933 00000 n
+0000002092 00000 n
+0000002391 00000 n
+0000002516 00000 n
+0000002685 00000 n
+0000002869 00000 n
+0000003053 00000 n
+0000003206 00000 n
+0000003329 00000 n
+0000008736 00000 n
+0000012212 00000 n
+0000013052 00000 n
+0000013171 00000 n
+0000013248 00000 n
+0000013325 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\356\013\305\000\322\307\025A\000b\011\014\222\021\266o) (\356\013\305\000\322\307\025A\000b\011\014\222\021\266o)] 
+
+ /Info 11 0 R
+ /Root 10 0 R
+ /Size 25 >>
+startxref
+13372
+%%EOF
