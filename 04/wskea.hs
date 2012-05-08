@@ -1,3 +1,5 @@
+import Control.Monad.State
+
 -- Semantik von Programmiersprachen
 -- AB3 Aufgabe 4
 -- Jaehwan Ji
@@ -44,17 +46,6 @@ type Id = String
 type W = Bool
 type Z = Int
 
--- divprog
-divprog :: P
-divprog = Command
-          (((Assign "x" (ReadT)):.:
-            (Assign "y" (ReadT))):.:
-           ((Assign "g" (Num 0)):.:                            -- g := 0;
-            (WhileDo (BoolOp (ID "x") GreaterOrEqual (ID "y")) -- while (x >= y)
-                (Assign "x" (Op (ID "x") Minus (ID "y")):.:    --     x = x - y;
-                 Assign "g" (Op (ID "g") Plus (Num 1))))):.:   --     g = g + 1;
-            (OutputT (ID "g")))                                -- output g
-
 -- AB3 Aufgabe 4
 data K = KTerm T
        | KBoolTerm BT
@@ -66,11 +57,11 @@ data K = KTerm T
        deriving (Show)
 
 --              W       S     K     E      A
-type State = ([KON], Memory, [K], [KON], [KON])
+type WSKEAState = ([KON], Memory, [K], [KON], [KON])
 type Memory = [(Id, Int)]
 
-showState :: State -> String
-showState (w, s, k, e, a)
+showWSKEAState :: WSKEAState -> String
+showWSKEAState (w, s, k, e, a)
      = show w ++ "\n"
     ++ show s ++ "\n"
     ++ show k ++ "\n"
@@ -90,10 +81,10 @@ assign id num memory
     | otherwise = (id, num):(filter ((/= id).fst) memory)
 
 -- Anfangszustand
-anfang :: P -> [KON] -> State
+anfang :: P -> [KON] -> WSKEAState
 anfang (Command c) input = ([], [], [KCommand c], input, [])
 
-delta :: State -> State
+delta :: WSKEAState -> WSKEAState
 -- 1.
 -- a)
 delta (w, s, (KTerm (Num z)):k, e, a) = ((KONNum z):w, s, k, e, a)
@@ -249,9 +240,23 @@ delta ((KONBool b):w, s, KOutput:k, e, a)
 delta _ = error "undefined state"
 
 -- Testaufruf
-divprogtest = (putStr . addLinebreaks . showState . delta . delta . delta . delta . 
+divprogtest = (putStr . addLinebreaks . showWSKEAState . delta . delta . delta . delta . 
     delta . delta . delta . delta . delta . delta . delta . delta . delta . delta .
     delta . delta . delta . delta . delta . delta . delta . delta . delta . delta .
     delta . delta . delta . delta . delta . delta . delta . delta . delta . delta .
     delta . delta . delta . delta . delta . delta) (anfang divprog [KONNum 1, KONNum 1])
 
+-- Übung 4, Aufgabe 1
+o :: P -> [KON] -> [KON]
+o code input = evalState o' (anfang code input)
+
+o' :: State WSKEAState [KON]
+o' = do
+	oldState <- get
+	modify delta
+	newState <- get
+	if oldState == newState
+		then return (output newState)
+		else o'
+
+output (w, s, k, e, a) = a
