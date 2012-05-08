@@ -46,17 +46,17 @@ reduk ( Term (Op n op t), (s, e, a)) = Just ( Term (Op n op m), (s, newE, a))
     where
         Just ( Term m, (_, newE, _)) = reduk ( Term t, (s, e, a) )
 -- n + m => (n+m)
-reduk ( Term (Op (Num n) Plus (Num m)), (s, e, a)) = Just ( Term ( Num n+m), (s, e, a))
+reduk ( Term (Op (Num n) Plus (Num m)), (s, e, a)) = Just ( Term ( Num (n+m)), (s, e, a))
 -- n - m => (n-m)
-reduk ( Op (Minus n m), (s, e, a)) = Just (n-m, (s, e, a))
+reduk ( Term (Op (Num n) Minus (Num m)), (s, e, a)) = Just ( Term ( Num (n-m)), (s, e, a))
 -- n * m => (n*m)
-reduk ( Op (Mul n m), (s, e, a)) = Just (n*m, (s, e, a))
+reduk ( Term (Op (Num n) Mul (Num m)), (s, e, a)) = Just ( Term ( Num (n*m)), (s, e, a))
 -- n / m => (n/m)
-reduk ( Op (Div n m), (s, e, a)) = Just (n/m, (s, e, a))
+reduk ( Term (Op (Num n) Div (Num m)), (s, e, a)) = Just ( Term ( Num (div n m)), (s, e, a))
 -- n % m => (n%m)
-reduk ( Op (Mod n m), (s, e, a)) = Just (mod n m, (s, e, a))
+reduk ( Term (Op (Num n) Mod (Num m)), (s, e, a)) = Just ( Term ( Num (mod n m)), (s, e, a))
 -- read => n
-reduk ( Term (ReadInt), (s, z:e, a))  = Just (Term (Num z), (s, e, a))
+reduk ( Term (ReadInt), (s, z:e, a)) = Just (Term (Num z), (s, e, a))
 -- bt1 BOP bt2 => b BOP bt2
 reduk ( BTerm (Expr bt1 bop bt2), (s, e, a)) = Just ( BTerm (Expr b bop bt2), (s, newE, a))
     where
