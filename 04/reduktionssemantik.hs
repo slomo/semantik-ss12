@@ -60,25 +60,25 @@ reduk ( Term (ReadInt), (s, (Z z):e, a)) = Just (Term (Num z), (s, e, a))
 -- bt1 BOP bt2 => b BOP bt2
 reduk ( BTerm (Expr bt1 bop bt2), (s, e, a)) = Just ( BTerm (Expr b bop bt2), (s, newE, a))
     where
-        Just ( BTerm (Bool b), (_, newE, _)) = reduk ( BTerm bt1, (s, e, a) )
+        Just ( Term b, (_, newE, _)) = reduk ( Term bt1, (s, e, a) )
 -- b BOP bt => b BOP c
 reduk ( BTerm (Expr b bop bt), (s, e, a)) = Just ( BTerm (Expr b bop c), (s, newE, a))
     where
-        Just ( BTerm (Bool c), (_, newE, _)) = reduk ( BTerm bt, (s, e, a) )
+        Just ( Term c, (_, newE, _)) = reduk ( Term bt, (s, e, a) )
 -- b > c => (b>c)
-reduk ( BTerm (Gt b c), (s, e, a)) = Just (b>c, (s, e, a))
+reduk ( BTerm (Expr (Num b) Gt (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b>c)), (s, e, a))
 -- b < c => (b<c)
-reduk ( BTerm (Lt b c), (s, e, a)) = Just (b<c, (s, e, a))
+reduk ( BTerm ( Expr (Num b) Lt (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b<c)), (s, e, a))
 -- b >= c => (b>=c)
-reduk ( BTerm (Geq b c), (s, e, a)) = Just (b>=c, (s, e, a))
+reduk ( BTerm ( Expr (Num b) Geq (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b>=c)), (s, e, a))
 -- b <= c => (b<=c)
-reduk ( BTerm (Leq b c), (s, e, a)) = Just (b<=c, (s, e, a))
+reduk ( BTerm ( Expr (Num b) Leq (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b<=c)), (s, e, a))
 -- b == c => (b==c)
-reduk ( BTerm (Eq b c), (s, e, a)) = Just (b==c, (s, e, a))
+reduk ( BTerm ( Expr (Num b) Eq (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b==c)), (s, e, a))
 -- b != c => (b!=c)
-reduk ( BTerm (Neq b c), (s, e, a)) = Just (b/=c, (s, e, a))
+reduk ( BTerm ( Expr (Num b) Neq (Num c)), (s, e, a)) = Just ( BTerm ( Bool (b/=c)), (s, e, a))
 -- read => n
-reduk ( Term (ReadBool), (s, b:e, a)) = Just (Term (Bool b), (s, e, a))
+reduk ( BTerm (ReadBool), (s, (W b):e, a)) = Just (BTerm (Bool b), (s, e, a))
 -- I := T => skip, assign
 reduk ( Command (Assign i t), ( s, e, a)) = Just ( Command Skip, ( newS, newE, a))
     where
@@ -109,7 +109,7 @@ reduk ( Command (OutputInt t), (s, e, a)) = Just ( Command Skip, (s, newE, [Z z]
 -- output B => skip
 reduk ( Command (OutputBool bt), (s, e, a)) = Just ( Command Skip, (s, newE, [W b]))
     where
-        Just ( BTerm (Bool b), (_, newE, _)) = reduk ( BTerm b, ( s, e, a) )
+        Just ( BTerm (Bool b), (_, newE, _)) = reduk ( BTerm bt, ( s, e, a) )
 
 reduk ( Term ( Num i ), (s, e, a)) = Just ( Term ( Num i), (s, e, a) )
 reduk (BTerm (Bool b ), (s, e, a)) = Just (BTerm (Bool b), (s, e, a) )
@@ -123,6 +123,9 @@ eval p e =  a
 test :: P
 test = ( Seq ( Assign "bla" ( Num 2)) (OutputInt (Id "bla")))
 
+test2 :: P
+test2 = (Seq (Assign "x" (Num 4)) (Seq (Assign "y" (Num 2)) (Seq (Assign "g" (Num 0)) (Seq (While (Expr (Id "x") Geq (Id "y")) (Seq (Assign "x" (Op (Id "x") Minus (Id "y"))) (Assign "g" (Op (Id "g") Plus (Num 1))))) (OutputInt (Id "g"))))))
+
 main :: IO ()
 main = do
-    putStr $ show $ eval test []
+    putStr $ show $ eval test2 []
