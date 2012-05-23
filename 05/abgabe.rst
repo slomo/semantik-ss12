@@ -8,7 +8,7 @@ Aufgabe 1
 ::
     
     C[[read I]] z = {Fehler,                   falls e = ε
-                    {C[[assign I n]] (s,e',a), falls e = n.e'
+                    {(s[n/I],e',a),            falls e = n.e'
 
 Aufgabe 2
 ---------
