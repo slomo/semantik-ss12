@@ -252,6 +252,7 @@ divprog = Command
             (OutputT (ID "g")))                                -- output g
 
 -- Übung 4, Aufgabe 1
+-- we assume existance of a delta and start function
 o :: P -> [KON] -> [KON]
 o code input = evalState o' (anfang code input)
 
