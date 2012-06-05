@@ -19,7 +19,7 @@ drei Kriterien aus dem Buch (Seite 5 / Def 3.3) gelten.
 Aufgabe 2
 ---------
 
-*insert image here*
+.. image:: cpoTask2.jpg
 
 Aufgabe 3
 ---------
