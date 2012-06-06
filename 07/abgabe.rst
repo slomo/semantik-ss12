@@ -5,14 +5,14 @@ Jakob Pfender & Yves Müller
 Aufgabe 1
 ---------
 
-Wir beweisen das die gegebene Struktur ein cpo ist, in dem wir zeigen, dass die
-drei Kriterien aus dem Buch (Seite 5 / Def 3.3) gelten.
+Wir beweisen, dass die gegebene Struktur ein cpo ist, indem wir zeigen, dass die
+drei Kriterien aus dem Buch (Seite 59 / Def 3.3) gelten.
 
-1. Gilt trivialer Weise, da eine Halbordnung auch diese Kriterien erfüllen muss.
+1. Gilt trivialerweise, da eine Halbordnung auch diese Kriterien erfüllen muss.
 
 2. Gilt nach Annahme.
 
-3. Wir nehmen an es gibt für eine Kette *K* keine kleinste obere Schranke, dann
+3. Wir nehmen an, es gibt für eine Kette *K* keine kleinste obere Schranke, dann
    für alle k ϵ K existiert ein k' so dass k' > k und damit wäre die Menge nicht
    beschränkt (Widerspruch).
 
@@ -24,12 +24,12 @@ Aufgabe 2
 Aufgabe 3
 ---------
 
-1. Die Vergleichsoperation über die natürlichen Zahlen N, weil es gibt für die
-   einzige Kette dieser Relation, keine kleinste obere Schranke.
+1. Die Vergleichsoperation über die natürlichen Zahlen N. Für die
+   einzige Kette dieser Relation gibt es keine kleinste obere Schranke.
 
-2. Die Teilgraphrelation über Menge aller nicht leeren Graphen, wobei der Graph
-   mit nur einem Knoten das Bottom Element ist. In dieser Menge gibt es keine
-   kleinste obere Schranke für irgeneine Kette, da man stets eine weitere Kante
+2. Die Teilgraphrelation über die Menge aller nichtleeren Graphen, wobei der Graph
+   mit nur einem Knoten das Bottom-Element ist. In dieser Menge gibt es keine
+   kleinste obere Schranke für irgendeine Kette, da man stets eine weitere Kante
    mit einem Knoten anfügen kann.
 
 Aufgabe 4
