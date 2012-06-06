@@ -13,7 +13,7 @@ drei Kriterien aus dem Buch (Seite 59 / Def 3.3) gelten.
 2. Gilt nach Annahme.
 
 3. Wir nehmen an, es gibt für eine Kette *K* keine kleinste obere Schranke, dann
-   für alle k ϵ K existiert ein k' so dass k' > k und damit wäre die Menge nicht
+   für alle k in K existiert ein k' so dass k' > k und damit wäre die Menge nicht
    beschränkt (Widerspruch).
 
 Aufgabe 2
