@@ -39,7 +39,8 @@ Aufgabe 3
 1. Die Vergleichsoperation über die natürlichen Zahlen N. Für die
    einzige Kette dieser Relation gibt es keine kleinste obere Schranke.
 
-2. Die Teilgraphrelation über die Menge aller nichtleeren Graphen, wobei der Graph
+2. Die Teilgraphrelation (d.h.: G1 <= G2 gdw. G1 isomorph zu einem Teilgraphen 
+   von G2) über die Menge aller endlichen nichtleeren Graphen, wobei der Graph
    mit nur einem Knoten das Bottom-Element ist. In dieser Menge gibt es keine
    kleinste obere Schranke für irgendeine Kette, da man stets eine weitere Kante
    mit einem Knoten anfügen kann.
