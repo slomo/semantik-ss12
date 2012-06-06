@@ -21,6 +21,18 @@ Aufgabe 2
 
 .. image:: cpoTask2.jpg
 
+a) A ist ein cpo, da eine Halbordnung darauf definiert werden kann, ein
+minimales Element existiert und jede Kette in A eine kleinste obere
+Schranke besitzt. Die ersten beiden Bedingungen gelten trivialerweise; dass
+die dritte Bedingung gilt, lässt sich unter zuhilfenahme des Beweises
+aus Aufgabe 1 und der Tatsache, dass A endlich ist, herleiten.
+
+
+b) A ist keine Kette; A enthält aber Ketten.
+
+c) Es existiert keine kleinste obere Schranke von A - es existieren nur
+kleinste obere Schranken der Ketten in A.
+
 Aufgabe 3
 ---------
 
