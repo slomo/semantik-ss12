@@ -9,7 +9,7 @@ Aufgabe 1
 a)
 ..
 
-Wir nehmen die cpo der Vergleichsoperation über die natürlichen Zahlen kleiner
+Wir nehmen die cpo der Vergleichsoperation über die natürlichen Zahlen kleiner gleich
 100 und bilden sie auf sich selbst ab. Dazu benutzen wir folgende Funktion:
 
 ::
@@ -21,17 +21,17 @@ Wir nehmen die cpo der Vergleichsoperation über die natürlichen Zahlen kleiner
 b)
 ..
 
-Beweis durch Widerspruch
+Beweis durch Widerspruch:
 
-Wir nehmen an das es zwei Funktionen f ung g gibt, f von A nach B und g von B
-nach C. Dann muss es eine Kimposition h = g ° f, die nicht stetig ist. Es gibt
+Wir nehmen an, es gibt zwei Funktionen f und g, f:A->B und g:B->C. 
+Dann muss es eine Komposition h = g ° f geben, die nicht stetig ist. Es gibt
 eine Kette K in A mit kleinster oberen Schranke s und h(s) ist nicht kleinste
 obere Schranke von h(K) in C.
 
-Da f stetig ist, gibt es ein f(s) in B, dass kleinste obere Schranke der Kette
+Da f stetig ist, gibt es ein f(s) in B, das kleinste obere Schranke der Kette
 f(K) ist. Da dies in C nicht gilt, kann g nicht stetig sein. -> Widerspruch
 
-Oder es gibt eine Kette J in C mit kleinster obere Schranke t, aber keine Kette
+Oder aber es gibt eine Kette J in C mit kleinster obere Schranke t, aber keine Kette
 h-1(J), für die h-1(t) kleinste obere Schranke ist. In diesem Fall war das
 Urbild f-1(t) auch in B kleinste obere Schranke der Kette f-1(J). Dann kann aber
 f nicht stetig sein. -> Widerspruch
@@ -50,7 +50,7 @@ b)
 ..
 
 ::
-    in_i(d)     = d , falls für allej von 1 bis n und i!=j: d nicht in Dj
+    in_i(d)     = d , falls für alle j von 1 bis n und i!=j: d nicht in Dj
     out_i(d)    = d
     is(d)       = true
 
